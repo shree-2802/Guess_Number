@@ -1,0 +1,34 @@
+.main {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:1rem;
+}
+
+.input {
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+  border-style: none;
+  border: 1px solid gray;
+  outline: none;
+}
+
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.button{
+  padding: 0.43rem 1rem;
+  border-radius: 0.3rem;
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.move:hover{
+  animation: moving ease-in-out 1.5s;
+}
